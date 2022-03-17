@@ -4,8 +4,12 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello World, Daiyu&#39;s Blog">
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex">
+    <meta name="keywords" content="Java基础第一部分, Daiyu&#39;s Blog">
+    <meta name="description" content="Java学习之路从现在开始记录我学习java的点点滴滴!!!
+1.Java语言基础1.1基本数据类型整数类型：int，byte，short，long；
+浮点类型：float，double；
+字符类型：char；
+转义字符：详细见参考书，有点">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +21,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hello World | Daiyu&#39;s Blog</title>
+    <title>Java基础第一部分 | Daiyu&#39;s Blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -30,7 +34,9 @@
 
     <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
 
-<meta name="generator" content="Hexo 6.0.0"></head>
+<meta name="generator" content="Hexo 6.0.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+</head>
 
 
 
@@ -309,12 +315,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/6.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hello World</h1>
+                    <h1 class="description center-align post-title">Java基础第一部分</h1>
                 </div>
             </div>
         </div>
@@ -428,9 +434,13 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/JavaSE/">
+                                <span class="chip bg-color">JavaSE</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
@@ -442,7 +452,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-02-06
+                    2022-02-17
                 </div>
                 
 
@@ -458,24 +468,43 @@
         <hr class="clearfix">
 
         
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="/libs/prism/prism.css">
+        
 
         
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+                <h2 id="Java学习之路"><a href="#Java学习之路" class="headerlink" title="Java学习之路"></a>Java学习之路</h2><p>从现在开始记录我学习java的点点滴滴!!!</p>
+<h3 id="1-Java语言基础"><a href="#1-Java语言基础" class="headerlink" title="1.Java语言基础"></a>1.Java语言基础</h3><h4 id="1-1基本数据类型"><a href="#1-1基本数据类型" class="headerlink" title="1.1基本数据类型"></a>1.1基本数据类型</h4><p>整数类型：int，byte，short，long；</p>
+<p>浮点类型：float，double；</p>
+<p>字符类型：char；</p>
+<p>转义字符：详细见参考书，有点多就不介绍了；</p>
+<h4 id="1-2变量和常量"><a href="#1-2变量和常量" class="headerlink" title="1.2变量和常量"></a>1.2变量和常量</h4><p>标识符：Java语言规定标识符由任意顺序的字母、下划线(_)、美元符号($)和数字组成，并且第一个字符不能是数字。另外，标识符不能是Java中的关键字；</p>
+<p>关键字：详细见参考书，有点多就不介绍了；</p>
+<p>声明变量和声明常量都差不多，变量分为成员变量和局部变量；</p>
+<h4 id="1-3运算符"><a href="#1-3运算符" class="headerlink" title="1.3运算符"></a>1.3运算符</h4><p>赋值运算符：=;</p>
+<p>算数运算符：+(加)，-(减)，*(乘)，/(除)，%(求余)；</p>
+<p>自增和自减运算符：++，–；注意面试可能会问：a++和++a的区别？a++表示在使用变量之后，使a的值加1，++a表示在使用变量之前，先使a的值加1；</p>
+<p>比较运算符：&gt;，&lt;，==，&gt;=，&lt;=，!=；</p>
+<p>逻辑运算符：&amp;&amp;、||、!；</p>
+<p>位运算符：按位与，按位或，按位取反，按位异或，移位操作；(详细见参考书)</p>
+<p>三元运算符：基本格式为：条件式？值1：值2，例如以下例子：</p>
+<pre class="language-java" data-language="java"><code class="language-java"><span class="token keyword">boolean</span> b<span class="token operator">=</span><span class="token number">20</span><span class="token operator">&lt;</span><span class="token number">45</span><span class="token operator">?</span><span class="token boolean">true</span><span class="token operator">:</span><span class="token boolean">false</span><span class="token punctuation">;</span></code></pre>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>如果表达式为真，b取值为true，为假的化，b的取值为false；</p>
+<p>运算符优先级:优先级由高到低的顺序依次是:1、增量和减量运算，2、算术运算，3、比较运算，4、逻辑运算，赋值运算；</p>
+<p>数据类型转换:分为两种：1、隐式类型转换，2、显式型转换(也称强制类型转换)；类型按精度从低到高排列的顺序为byte&lt;short&lt;int&lt;long&lt;float&lt;double。从低级类型向高级类型的转换，系统将自动执行，这种类型转换称为隐式转换。例如一下例子：</p>
+<pre class="language-java" data-language="java"><code class="language-java"><span class="token keyword">int</span> x<span class="token operator">=</span><span class="token number">50</span><span class="token punctuation">;</span>      <span class="token comment">//声明int型变量x</span>
+<span class="token keyword">float</span> y<span class="token operator">=</span>x<span class="token punctuation">;</span>     <span class="token comment">//将x赋值给y，y的值为50.0</span></code></pre>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>当需要把高精度的变量的值赋给低精度的变量时，必须使用显式类型转换(也称强制类型转换)，例如以下例子：</p>
+<pre class="language-java" data-language="java"><code class="language-java"><span class="token keyword">int</span> a<span class="token operator">=</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span><span class="token number">45.23</span><span class="token punctuation">;</span>
+<span class="token keyword">long</span> y<span class="token operator">=</span><span class="token punctuation">(</span><span class="token keyword">long</span><span class="token punctuation">)</span><span class="token number">456.6F</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> b<span class="token operator">=</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span><span class="token char">'d'</span><span class="token punctuation">;</span></code></pre>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<p><img src="https://s2.loli.net/2022/02/17/D4J2fwbX3VPjxNt.jpg"></p>
 
                 
             </div>
@@ -502,7 +531,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://daiyu5452.github.io/2022/02/06/hello-world/">https://daiyu5452.github.io/2022/02/06/hello-world/</a>
+                    <a href="https://daiyu5452.github.io/2022/02/17/Java%E5%9F%BA%E7%A1%80%E7%AC%AC%E4%B8%80%E9%83%A8%E5%88%86/">https://daiyu5452.github.io/2022/02/17/Java%E5%9F%BA%E7%A1%80%E7%AC%AC%E4%B8%80%E9%83%A8%E5%88%86/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -539,7 +568,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/JavaSE/">
+                                    <span class="chip bg-color">JavaSE</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -711,18 +744,17 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2022/02/06/hello-world/">
+                <a href="/2022/02/19/Java%E5%9F%BA%E7%A1%80%E7%AC%AC%E4%BA%8C%E9%83%A8%E5%88%86/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="Java基础第二部分">
                         
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">Java基础第二部分</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -732,9 +764,9 @@
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-02-06
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-02-19
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -743,7 +775,14 @@
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/JavaSE/">
+                        <span class="chip bg-color">JavaSE</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -751,16 +790,16 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/02/06/hello-world/">
+                <a href="/2022/02/13/Second-Blog/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="Second Blog">
                         
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">Second Blog</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -771,7 +810,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-02-06
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-02-13
                             </span>
                         <span class="publish-author">
                             
@@ -781,7 +820,14 @@
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E6%B5%8B%E8%AF%95/">
+                        <span class="chip bg-color">测试</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -950,9 +996,9 @@
         <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
                    server="netease"
                    type="playlist"
-                   id="503838841"
+                   id="7281550168"
                    fixed='true'
-                   autoplay='false'
+                   autoplay='true'
                    theme='#42b983'
                    loop='all'
                    order='random'
@@ -1164,6 +1210,15 @@ $(function () {
     
 
     
+        
+        <script type="text/javascript">
+            // 只在桌面版网页启用特效
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                document.write('<script type="text/javascript" src="/libs/others/sakura.js"><\/script>');
+            }
+        </script>
+    
 
     <!-- 雪花特效 -->
     
@@ -1218,6 +1273,6 @@ $(function () {
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
 
-</body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
 
 </html>
