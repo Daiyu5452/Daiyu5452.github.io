@@ -5,10 +5,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="Java基础第二部分, Daiyu&#39;s Blog">
-    <meta name="description" content="Java学习之路1.流程控制1.1复合语句public class Compound&amp;#123;
-   	public static void main(String[] args)&amp;#123;
+    <meta name="description" content="Java学习之路1.流程控制1.1复合语句public class Compound{
+   	public static void main(String[] args){
         int x=20;
-    ">
+        {//复合语">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -33,7 +33,9 @@
 
     <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
 
-<meta name="generator" content="Hexo 6.0.0"></head>
+<meta name="generator" content="Hexo 6.0.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+</head>
 
 
 
@@ -473,51 +475,51 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="Java学习之路"><a href="#Java学习之路" class="headerlink" title="Java学习之路"></a>Java学习之路</h2><h3 id="1-流程控制"><a href="#1-流程控制" class="headerlink" title="1.流程控制"></a>1.流程控制</h3><h4 id="1-1复合语句"><a href="#1-1复合语句" class="headerlink" title="1.1复合语句"></a>1.1复合语句</h4><pre class="language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Compound</span><span class="token punctuation">&#123;</span>
-   	<span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
+                <h2 id="Java学习之路"><a href="#Java学习之路" class="headerlink" title="Java学习之路"></a>Java学习之路</h2><h3 id="1-流程控制"><a href="#1-流程控制" class="headerlink" title="1.流程控制"></a>1.流程控制</h3><h4 id="1-1复合语句"><a href="#1-1复合语句" class="headerlink" title="1.1复合语句"></a>1.1复合语句</h4><pre class="language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Compound</span><span class="token punctuation">{</span>
+   	<span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span><span class="token punctuation">{</span>
         <span class="token keyword">int</span> x<span class="token operator">=</span><span class="token number">20</span><span class="token punctuation">;</span>
-        <span class="token punctuation">&#123;</span><span class="token comment">//复合语句</span>
+        <span class="token punctuation">{</span><span class="token comment">//复合语句</span>
             <span class="token keyword">int</span> y<span class="token operator">=</span><span class="token number">40</span><span class="token punctuation">;</span>
             <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>y<span class="token punctuation">)</span><span class="token punctuation">;</span>
             <span class="token keyword">int</span> z<span class="token operator">=</span><span class="token number">245</span><span class="token punctuation">;</span>
             <span class="token keyword">boolean</span> b<span class="token punctuation">;</span>
-            <span class="token punctuation">&#123;</span><span class="token comment">//复合语句</span>
-                b<span class="token operator">=</span>y<span class="token operator">></span>z<span class="token punctuation">;</span>
+            <span class="token punctuation">{</span><span class="token comment">//复合语句</span>
+                b<span class="token operator">=</span>y<span class="token operator">&gt;</span>z<span class="token punctuation">;</span>
                 <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>b<span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token punctuation">&#125;</span><span class="token comment">//复合语句</span>
-        <span class="token punctuation">&#125;</span><span class="token comment">//复合语句</span>
+            <span class="token punctuation">}</span><span class="token comment">//复合语句</span>
+        <span class="token punctuation">}</span><span class="token comment">//复合语句</span>
         <span class="token class-name">String</span> word<span class="token operator">=</span><span class="token string">"hello java"</span><span class="token punctuation">;</span>
         <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>word<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">&#125;</span>
-<span class="token punctuation">&#125;</span></code></pre>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre>
 
 <p>在上面例子中，如果在复合语句外使用变量y、z、b将会出现错误，而变量x可在整个方法体中使用。</p>
-<h4 id="1-2条件语句"><a href="#1-2条件语句" class="headerlink" title="1.2条件语句"></a>1.2条件语句</h4><h5 id="1-2-1简单的if语句"><a href="#1-2-1简单的if语句" class="headerlink" title="1.2.1简单的if语句"></a>1.2.1简单的if语句</h5><pre class="language-java" data-language="java"><code class="language-java"><span class="token keyword">if</span><span class="token punctuation">(</span>布尔表达式<span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
+<h4 id="1-2条件语句"><a href="#1-2条件语句" class="headerlink" title="1.2条件语句"></a>1.2条件语句</h4><h5 id="1-2-1简单的if语句"><a href="#1-2-1简单的if语句" class="headerlink" title="1.2.1简单的if语句"></a>1.2.1简单的if语句</h5><pre class="language-java" data-language="java"><code class="language-java"><span class="token keyword">if</span><span class="token punctuation">(</span>布尔表达式<span class="token punctuation">)</span><span class="token punctuation">{</span>
     语句序列
-<span class="token punctuation">&#125;</span></code></pre>
+<span class="token punctuation">}</span></code></pre>
 
 <p>布尔表达式：必要参数，表示最后返回的结果必须是一个布尔值；</p>
 <p>语句序列：可选参数，可以是一条或多条语句，当布尔表达式的值为true时执行这些语句。</p>
-<h5 id="1-2-2if…else语句"><a href="#1-2-2if…else语句" class="headerlink" title="1.2.2if…else语句"></a>1.2.2if…else语句</h5><pre class="language-java" data-language="java"><code class="language-java"><span class="token keyword">if</span><span class="token punctuation">(</span>条件表达式<span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
+<h5 id="1-2-2if…else语句"><a href="#1-2-2if…else语句" class="headerlink" title="1.2.2if…else语句"></a>1.2.2if…else语句</h5><pre class="language-java" data-language="java"><code class="language-java"><span class="token keyword">if</span><span class="token punctuation">(</span>条件表达式<span class="token punctuation">)</span><span class="token punctuation">{</span>
     语句序列<span class="token number">1</span>
-<span class="token punctuation">&#125;</span><span class="token keyword">else</span><span class="token punctuation">&#123;</span>
+<span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
     语句序列<span class="token number">2</span>
-<span class="token punctuation">&#125;</span></code></pre>
+<span class="token punctuation">}</span></code></pre>
 
 <p>如果条件表达式为true，则执行if后面的复合语句；如果条件表达式为false，则执行else后面的复合语句。要注意的是if语句执行的话，只可以执行一次，而如果while的条件表达式一直正确，可以一直执行下去。</p>
-<h5 id="1-2-3if…else-if语句"><a href="#1-2-3if…else-if语句" class="headerlink" title="1.2.3if…else if语句"></a>1.2.3if…else if语句</h5><pre class="language-java" data-language="java"><code class="language-java"><span class="token keyword">if</span><span class="token punctuation">(</span>条件表达式<span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
+<h5 id="1-2-3if…else-if语句"><a href="#1-2-3if…else-if语句" class="headerlink" title="1.2.3if…else if语句"></a>1.2.3if…else if语句</h5><pre class="language-java" data-language="java"><code class="language-java"><span class="token keyword">if</span><span class="token punctuation">(</span>条件表达式<span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
     语句序列<span class="token number">1</span>
-<span class="token punctuation">&#125;</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>条件表达式<span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
+<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>条件表达式<span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
     语句序列<span class="token number">2</span>
-<span class="token punctuation">&#125;</span>
+<span class="token punctuation">}</span>
 <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
-<span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>条件表达式n<span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
+<span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>条件表达式n<span class="token punctuation">)</span><span class="token punctuation">{</span>
     语句序列n
-<span class="token punctuation">&#125;</span></code></pre>
+<span class="token punctuation">}</span></code></pre>
 
 <p>条件表达式1~条件表达式n：必要参数。可以由多个表达式组成，但最后表达式的结果一定要为布尔类型。</p>
 <p>语句序列：当条件表达式1为true时，执行语句序列1，以此类推，当条件表达式n为true时，执行语句序列n；如果要省略任意一组语句序列时，可以保留其外面的”{ }”，也可以将”{ }”替换为”；”。</p>
-<h5 id="1-2-4switch多分支语句"><a href="#1-2-4switch多分支语句" class="headerlink" title="1.2.4switch多分支语句"></a>1.2.4switch多分支语句</h5><pre class="language-java" data-language="java"><code class="language-java"><span class="token keyword">switch</span><span class="token punctuation">(</span>条件表达式<span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
+<h5 id="1-2-4switch多分支语句"><a href="#1-2-4switch多分支语句" class="headerlink" title="1.2.4switch多分支语句"></a>1.2.4switch多分支语句</h5><pre class="language-java" data-language="java"><code class="language-java"><span class="token keyword">switch</span><span class="token punctuation">(</span>条件表达式<span class="token punctuation">)</span><span class="token punctuation">{</span>
     <span class="token keyword">case</span> 常量值<span class="token number">1</span><span class="token operator">:</span>
          语句块<span class="token number">1</span>
          <span class="token punctuation">[</span><span class="token keyword">break</span><span class="token punctuation">;</span><span class="token punctuation">]</span>
@@ -528,27 +530,27 @@
     <span class="token keyword">default</span><span class="token operator">:</span>
          语句块n<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">;</span>
          <span class="token punctuation">[</span><span class="token keyword">break</span><span class="token punctuation">;</span><span class="token punctuation">]</span>
-<span class="token punctuation">&#125;</span></code></pre>
+<span class="token punctuation">}</span></code></pre>
 
 <p>switch语句首先计算表达式的值，如果表达式的计算结果和某个case后面的常量值相同，则执行该case语句后的若干个语句直到遇到break语句为止。此时，如果该case语句没有break语句，将继续执行后面case中的若干个语句，直到遇到break语句为止。若没有一个常量的值与表达式的值相同，则执行default后面的语句。</p>
-<h4 id="1-3循环语句"><a href="#1-3循环语句" class="headerlink" title="1.3循环语句"></a>1.3循环语句</h4><h5 id="1-3-1while循环语句"><a href="#1-3-1while循环语句" class="headerlink" title="1.3.1while循环语句"></a>1.3.1while循环语句</h5><pre class="language-java" data-language="java"><code class="language-java"><span class="token keyword">while</span><span class="token punctuation">(</span>条件表达式<span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
+<h4 id="1-3循环语句"><a href="#1-3循环语句" class="headerlink" title="1.3循环语句"></a>1.3循环语句</h4><h5 id="1-3-1while循环语句"><a href="#1-3-1while循环语句" class="headerlink" title="1.3.1while循环语句"></a>1.3.1while循环语句</h5><pre class="language-java" data-language="java"><code class="language-java"><span class="token keyword">while</span><span class="token punctuation">(</span>条件表达式<span class="token punctuation">)</span><span class="token punctuation">{</span>
     语句序列
-<span class="token punctuation">&#125;</span></code></pre>
+<span class="token punctuation">}</span></code></pre>
 
 <p>当条件表达式的值为真时，则执行”{ }”中的语句，当执行完语句后重新判断条件表达式的值，如果为真，继续执行”{ }“中的语句，直到条件表达式为假，跳出循环。</p>
-<h5 id="1-3-2do…while语句"><a href="#1-3-2do…while语句" class="headerlink" title="1.3.2do…while语句"></a>1.3.2do…while语句</h5><pre class="language-java" data-language="java"><code class="language-java"><span class="token keyword">do</span><span class="token punctuation">&#123;</span>
+<h5 id="1-3-2do…while语句"><a href="#1-3-2do…while语句" class="headerlink" title="1.3.2do…while语句"></a>1.3.2do…while语句</h5><pre class="language-java" data-language="java"><code class="language-java"><span class="token keyword">do</span><span class="token punctuation">{</span>
     语句序列
-<span class="token punctuation">&#125;</span><span class="token keyword">while</span><span class="token punctuation">(</span>条件表达式<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<span class="token punctuation">}</span><span class="token keyword">while</span><span class="token punctuation">(</span>条件表达式<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 
 <p>do…while循环语句必须先执行一次循环，再判断条件是否成立。也就是说，do…while循环语句”{ }”中的程序段至少要被执行一次。</p>
-<h5 id="1-3-3for循环语句"><a href="#1-3-3for循环语句" class="headerlink" title="1.3.3for循环语句"></a>1.3.3for循环语句</h5><pre class="language-java" data-language="java"><code class="language-java"><span class="token keyword">for</span><span class="token punctuation">(</span>表达式<span class="token number">1</span><span class="token punctuation">;</span>表达式<span class="token number">2</span><span class="token punctuation">;</span>表达式<span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
+<h5 id="1-3-3for循环语句"><a href="#1-3-3for循环语句" class="headerlink" title="1.3.3for循环语句"></a>1.3.3for循环语句</h5><pre class="language-java" data-language="java"><code class="language-java"><span class="token keyword">for</span><span class="token punctuation">(</span>表达式<span class="token number">1</span><span class="token punctuation">;</span>表达式<span class="token number">2</span><span class="token punctuation">;</span>表达式<span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
     语句序列
-<span class="token punctuation">&#125;</span></code></pre>
+<span class="token punctuation">}</span></code></pre>
 
 <p>在执行for循环时，首先执行表达式1，再执行表达式2，若表达式2的值为true，则进入循环，到最后执行完循环体后才执行表达式3。</p>
-<h5 id="1-3-4foreach"><a href="#1-3-4foreach" class="headerlink" title="1.3.4foreach"></a>1.3.4foreach</h5><pre class="language-java" data-language="java"><code class="language-java"><span class="token keyword">for</span><span class="token punctuation">(</span>元素类型 x<span class="token operator">:</span>遍历对象 obj<span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
+<h5 id="1-3-4foreach"><a href="#1-3-4foreach" class="headerlink" title="1.3.4foreach"></a>1.3.4foreach</h5><pre class="language-java" data-language="java"><code class="language-java"><span class="token keyword">for</span><span class="token punctuation">(</span>元素类型 x<span class="token operator">:</span>遍历对象 obj<span class="token punctuation">)</span><span class="token punctuation">{</span>
     引用了x的<span class="token class-name">Java</span>语句<span class="token punctuation">;</span>
-<span class="token punctuation">&#125;</span></code></pre>
+<span class="token punctuation">}</span></code></pre>
 
 <p>foreach是for语句的特殊简化版本，不能取代for语句，但任何foreach语句都可以改写为for语句版本。foreach就单纯遍历数组用的，也没啥其他功能。</p>
 <h4 id="1-4循环控制"><a href="#1-4循环控制" class="headerlink" title="1.4循环控制"></a>1.4循环控制</h4><p>主要是break和continue这两个关键字，break跳出当前循环体，而continue则是不跳出当前循环体，回到条件测试部分，重新开始执行循环。</p>
@@ -1321,6 +1323,6 @@ $(function () {
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
 
-</body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
 
 </html>
