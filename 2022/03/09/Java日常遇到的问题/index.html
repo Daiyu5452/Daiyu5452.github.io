@@ -31,9 +31,7 @@
 
     <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
 
-<meta name="generator" content="Hexo 6.0.0">
-<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-</head>
+<meta name="generator" content="Hexo 6.0.0"></head>
 
 
 
@@ -476,15 +474,15 @@
                 <h2 id="java中-next-方法的作用及应用？"><a href="#java中-next-方法的作用及应用？" class="headerlink" title="java中.next()方法的作用及应用？"></a>java中.next()方法的作用及应用？</h2><h3 id="1-next-方法的作用"><a href="#1-next-方法的作用" class="headerlink" title="1.(.next())方法的作用"></a>1.(.next())方法的作用</h3><p>指针指向下一条记录，有记录（有值）返回true并把记录内容存入到对应的对象中，也就是obj.next()的obj中。如果没有返回false。</p>
 <h3 id="2-next-方法的应用"><a href="#2-next-方法的应用" class="headerlink" title="2.(.next())方法的应用"></a>2.(.next())方法的应用</h3><p>一般和ResultSet对象和while循环一起使用，去迭代结果集。</p>
 <h2 id="ResultSet的getInt-和getString-方法详解"><a href="#ResultSet的getInt-和getString-方法详解" class="headerlink" title="ResultSet的getInt()和getString()方法详解"></a>ResultSet的getInt()和getString()方法详解</h2><p>就比如说在MySQL执行查询语句如下：</p>
-<pre class="language-mysql" data-language="mysql"><code class="language-mysql">ResultSet rs = null;
-String sql="SELECT flow_id,Type,id_card,exam_card,student_name,location,grade FROM examstudent";
-rs = st.executeQuery(sql);</code></pre>
+<pre class="language-mysql" data-language="mysql"><code class="language-mysql">ResultSet rs &#x3D; null;
+String sql&#x3D;&quot;SELECT flow_id,Type,id_card,exam_card,student_name,location,grade FROM examstudent&quot;;
+rs &#x3D; st.executeQuery(sql);</code></pre>
 
 <pre class="language-mysql" data-language="mysql"><code class="language-mysql">rs:数据集。
 rs.getInt(int index);
 rs.getInt(String columName);
 你可以通过索引或者列名来获得查询结果集中的某一列的值。
-例如：while(rs.next){  rs.getInt(1)//等价于rs.getInt("flowid");  rs.getString(5)//等价于rs.getInt("student_name");}
+例如：while(rs.next)&#123;  rs.getInt(1)&#x2F;&#x2F;等价于rs.getInt(&quot;flowid&quot;);  rs.getString(5)&#x2F;&#x2F;等价于rs.getInt(&quot;student_name&quot;);&#125;
 注意：getInt()和getString()方法的索引值从1开始，表示第一个字段。</code></pre>
 
 
@@ -1255,6 +1253,6 @@ $(function () {
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
 
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+</body>
 
 </html>
